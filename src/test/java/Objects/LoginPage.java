@@ -67,8 +67,7 @@ driver.findElement(By.xpath("//*[@id=\"logOnFormSubmit\"]")).click();
         System.setProperty("webdriver.chrome.driver", "src/test/resources/Drivers/chromedriver.exe");
         driver = new ChromeDriver();
         lp = new LoginPage(driver);
-        FCC = new Fiche_CreationCollaborateur(driver);
-        FVK = new Fiche_VerifEmpKimble(driver);
+
     }
     public void user_opens_url(String url) {
         // pour acceder à SF
@@ -89,8 +88,12 @@ driver.findElement(By.xpath("//*[@id=\"logOnFormSubmit\"]")).click();
         System.setProperty("webdriver.chrome.driver", "src/test/resources/Drivers/chromedriver.exe");
         driver = new ChromeDriver();
         lp = new LoginPage(driver);
-        FCC = new Fiche_CreationCollaborateur(driver);
-        FVK = new Fiche_VerifEmpKimble(driver);
+
+
+
+
+
+
     }
     public void userr_opens_url_kimble(String url) {
         // pour acceder à kimble

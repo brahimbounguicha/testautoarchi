@@ -9,8 +9,7 @@ public class loginKimbleSteps extends BaseClass {
         System.setProperty("webdriver.chrome.driver","src/test/resources/Drivers/chromedriver.exe");
         driver = new ChromeDriver();
         lp = new LoginPage(driver);
-        FCC = new Fiche_CreationCollaborateur(driver);
-        FVK = new Fiche_VerifEmpKimble(driver);
+
     }
     @When("User opens URL kimble {string}")
     public void userr_opens_url(String url) {

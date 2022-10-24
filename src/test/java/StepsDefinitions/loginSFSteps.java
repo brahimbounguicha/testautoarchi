@@ -1,7 +1,6 @@
 package StepsDefinitions;
 
-import Objects.Fiche_CreationCollaborateur;
-import Objects.Fiche_VerifEmpKimble;
+
 import Objects.LoginPage;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.By;
@@ -15,8 +14,7 @@ public class loginSFSteps extends BaseClass {
         System.setProperty("webdriver.chrome.driver","src/test/resources/Drivers/chromedriver.exe");
         driver = new ChromeDriver();
         lp = new LoginPage(driver);
-        FCC = new Fiche_CreationCollaborateur(driver);
-        FVK = new Fiche_VerifEmpKimble(driver);
+
     }
     @When("User opens URL {string}")
     public void user_opens_url(String url) {
