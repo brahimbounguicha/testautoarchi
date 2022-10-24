@@ -1,4 +1,4 @@
-package StepsDefinitions;
+package copy;
 import Objects.Fiche_MAJmanagerCollab;
 import Objects.Fiche_VerifEmpKimble;
 import Objects.LoginPage;
